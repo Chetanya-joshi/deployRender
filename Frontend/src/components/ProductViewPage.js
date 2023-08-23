@@ -3,7 +3,7 @@ import { useSelector } from "react-redux";
 import { ADD } from './Actions/action1'
 import { useState } from "react";
 import { productData} from "./data";
-function productViewPage(){
+function ProductViewPage(){
     const[ subdata,sets1]=useState(productData)
           console.log(subdata)
           const subb= useSelector((state)=>state.Cartreducer.carts)
@@ -56,4 +56,4 @@ function productViewPage(){
 
     
 }
-export default productViewPage;
+export default ProductViewPage;
