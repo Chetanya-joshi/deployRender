@@ -60,7 +60,7 @@ app.post('/formdata',async(req,resp)=>{
   })
 
   app.get('/key',(req,resp)=>{
-    resp.json({key:'rzp_test_OmCfFJhnp3Fztn'})
+    resp.json({key:'rzp_live_OzzgMMhXl5Q7Zw'})
 
   })
   app.post('/verification', async (req, resp) => {
@@ -71,7 +71,7 @@ const body = razorpay_order_id + "|" + razorpay_payment_id;
   req.body;
 
   const expectedSignature = crypto
-  .createHmac("sha256" , 'wyTuLIkM1pDzjPnYg9E3NV6E')
+  .createHmac("sha256" , 'RiXwrhfztXiSWEBquNJbO3Iv')
   .update(body.toString())
   .digest("hex")
 
