@@ -1,4 +1,4 @@
-import {createStore} from"redux";
+import {createStore} from "react-redux";
 
 import rootes from './Reducer/Reducer2'
 import { useEffect } from "react";
