@@ -44,7 +44,7 @@ import BrandCollaboration from './components/Collaboration';
 // import IP from './components/IP';
 import Cities from './components/Cities';
 import Main2 from './components/Main2';
-import BloggerMelaDelhi from './components/BloggersMelaDelhi';
+import BloggersMelaDelhi from './components/BloggersMelaDelhi';
 import Cartview from './components/Cartview'
 import PaymentForm from './components/PaymentForm'
 import ProductPage from './components/Productpage'
@@ -90,7 +90,7 @@ function App() {
           <Route path="/cities" element={<Cities />} />
           <Route path="/fashion" element={<Section1 />} />
           <Route path="/googleform" element={<GoogleForm />} />
-          <Route path="/bloggersMelaDelhi" element={<BloggerMelaDelhi />} />
+          <Route path="/bloggersMelaDelhi" element={<BloggersMelaDelhi />} />
                  <Route path="/Cartview" element={<Cartview/>} />
                  <Route path="/paymentform" element={<PaymentForm/>} />
                  <Route path="/blogger1/:id" element={<ProductPage/>} />
