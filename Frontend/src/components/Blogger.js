@@ -462,7 +462,7 @@ const Blogger = () => {
             <div className="text-white join-community">
               <hr  />
               <h1 className="mb-3 animate">Bloggers Mela</h1>
-             <Link to="/bloggersMelaDelhi" style={{textDecoration:"none"}} target="_blank" ><h4 className="mb-3">Bloggers' Mela</h4></Link>
+             <Link to="/bloggersMelaDelhi" style={{textDecoration:"none"}} ><h4 className="mb-3">Bloggers' Mela</h4></Link>
 
              <Link to="https://docs.google.com/forms/d/e/1FAIpQLSfL2TUQ3g42Qhe7x5kJWVrIzTYsvozYoVH9hNC8a4nAr5Dibg/viewform" target="_blank" className="btn btn-outline-dark btn-lg mb-2" role="button">
 
