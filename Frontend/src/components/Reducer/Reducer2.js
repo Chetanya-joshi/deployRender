@@ -1,4 +1,4 @@
-import { combineReducers } from "react-redux";
+import { combineReducers } from "redux";
 import {Cartreducer } from './Reducer1';
 
 const rootes = combineReducers({
