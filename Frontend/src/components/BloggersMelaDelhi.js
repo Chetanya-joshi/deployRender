@@ -68,7 +68,7 @@ import brand9 from './images/hero.png';
 
 
 
-function BloggerMelaDelhi() {
+function BloggersMelaDelhi() {
   const settings = {
     dots: true,
     infinite: false,
@@ -725,4 +725,4 @@ This year's event is going to be graced by renowned bloggers such as Nitin Gupta
 
 }
 
-export default BloggerMelaDelhi;
+export default BloggersMelaDelhi;
