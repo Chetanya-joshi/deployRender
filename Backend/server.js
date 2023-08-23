@@ -4,7 +4,12 @@ const app= express()
 require('./Config')
 const form = require('./FormData')
 var instance = require( './Razorpay')
+const bodyParser = require('body-parser')
 const path = require('path');
+
+app.use(bodyParser.urlencoded({extended:false}))
+
+app.use(bodyParser.json());
 
 app.use(express.json())
 const cors=require('cors');
