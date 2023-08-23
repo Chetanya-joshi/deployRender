@@ -2,12 +2,17 @@
   "name": "backend",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "server.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "node server.js",
-        "build" : "npm i"
+        "build" : "npm i",
+        "server": "nodemon server.js",
+    "dev": "nodemon server.js"
 
+  },
+  "engines": {
+    "node": "v20.4.0"
   },
   "author": "",
   "license": "ISC",
